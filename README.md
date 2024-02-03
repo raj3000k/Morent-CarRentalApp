@@ -1,119 +1,114 @@
-# Project CarRent
+<!-- PROJECT LOGO -->
+<br />
+<h1>Morent</h1>
 
-Build a FullStack modern car renting marketplace Application.
+<div align="left">
+  <p>
+    Morent, a cutting-edge car rental web app built with the MERN stack. Features robust search options, detailed vehicle info pages, and an intuitive, user-friendly interface to simplify the rental experience.
+  </p>
+</div>
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/11BBlTR9XVYIXdxg4KbvkZhelDdmEceHi_8BRX1HhBWY/edit?usp=sharing)
 
-# Contributing
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#features">Features</a> </li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#co-authors">Co-Authors</a></li>
+  </ol>
+</details>
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
-## System Requirements
 
-To get started with development, you need to install few tools
+<!-- ABOUT THE PROJECT -->
+## Features
 
-1. git
+**・Cars** :
 
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+<br />
+<br />
 
-   To check your version of git, run:
+**・Search cars** :
 
-   ```shell
-    git --version
-   ```
+<br />
+<br />
 
-2. node
+**・Pickup/ dropoff** :
 
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+<br />
+<br />
 
-   To check your version of node, run:
+**・Add/ edit car form** :
 
-   ```shell
-    node --version
-   ```
+<br />
+<br />
 
-3. npm
 
-   `npm` version 5.6.1 or higher. You will have it after you install node
 
-   To check your version of npm, run:
+**・Stripe payment** :
 
-   ```shell
-    npm --version
-   ```
+<br />
 
-## Setup
 
-To set up a development environment, please follow these steps:
 
-1. Clone the repo
 
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/Cohort5_DivineDomain_CarRent.git
-   ```
+## Built With
 
-2. Change directory to the project directory
+* Next.js
+* Typescript
+* Tailwind CSS
+* Supabase
+* Stripe
 
-   ```shell
-   cd Cohort5_DivineDomain_CarRent
-   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You have successfully cloned the repo. Go ahead and start developing the project with your chosen framework (React.js or Next.js)!
 
-## Issues
+<!-- CONTRIBUTING -->
+## Contributing
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+If you have an idea to improve this, kindly fork the repository and open a pull request. We also welcome enhancement suggestions filed as issues. 
+Stars ⭐ from you will brighten our day! Thanks for checking out our project.
 
-Please try to create bug reports that are:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
 
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
 
-## Pull Request
 
-There are 2 main work flows when dealing with pull requests:
 
-- Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-- Pull Request from a branch within a repository
+<!-- LICENSE -->
+## License
 
-Here we are going to focus on 2. Creating a Topical Branch:
+Distributed under the MIT License. 
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
 
-   ```bash
-    git pull origin main
-   ```
 
-   _Note:_ `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
 
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`.
+<!-- CONTACT -->
+## Contact
 
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
+Asako Hayase- [LinkedIn](https://www.linkedin.com/in/asako-hayase-924508ba/)
 
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
+Project Link: []() *To be updated
 
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
 
-3. To create a pull request, you must have changes committed to your new branch.
 
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
 
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
+<!-- Co-Authors -->
+## Co-Authors
+* Abbo Adamou - [Github Profile](https://www.linkedin.com/in/abboadamou/)
+* Matthew Gajo - [Github Profile](https://github.com/lushi-liu)
+* Ryan Carpenter - [Github Profile](https://www.linkedin.com/in/ryanjcarpenter/)
 
-6. Follow the template and fill in the proper information for the pull request.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-7. Click on the `Submit` button.
 
-8. You have successfully created a pull request. Add at least one of the mentors as a code reviewer.
 
-9. Now wait for mentor approval. Once approved, you can merge the pull request.
 
-#
 
-###
