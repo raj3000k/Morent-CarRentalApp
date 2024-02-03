@@ -33,21 +33,21 @@
 <br />
 <br />
 
-**・Search cars** :
+**・Search Cars** :
 
 <img width="1307" alt="Screenshot 2024-02-03 at 9 24 30 AM" src="https://github.com/asakohayase/Morent-CarRentalApp/assets/76857882/2c78b58c-cf5a-4979-911c-95e53c802c86">
 
 <br />
 <br />
 
-**・Pickup/ dropoff** :
+**・Pickup/ Dropoff** :
 
 <img width="1303" alt="Screenshot 2024-02-03 at 9 23 31 AM" src="https://github.com/asakohayase/Morent-CarRentalApp/assets/76857882/c228f93d-b0c2-4bfd-b96b-fb81c8a4eb08">
 
 <br />
 <br />
 
-**・Add/ edit car form** :
+**・Add/ Edit Car Form** :
 
 <img width="1300" alt="Screenshot 2024-02-03 at 9 24 59 AM" src="https://github.com/asakohayase/Morent-CarRentalApp/assets/76857882/3ea32ec7-087b-4647-b45f-d28a7defc293">
 
@@ -56,7 +56,7 @@
 
 
 
-**・Stripe payment** :
+**・Stripe Payment** :
 
 <img width="1304" alt="Screenshot 2024-02-03 at 9 25 44 AM" src="https://github.com/asakohayase/Morent-CarRentalApp/assets/76857882/b009ea8e-220b-4e4b-9059-b7403eeb7845">
 
