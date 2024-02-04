@@ -35,11 +35,7 @@ const Login = () => {
     email: false,
     password: false,
   });
-  const [pageURL, setPageURL] = useState('');
-  useEffect(() => {
-    setPageURL(window.location.href);
-  }, []);
-
+  const pageURL ="https://morent-car-rental-y0sv20dv2-asakohayase.vercel.app"
   const toggle = () => {
     setOpen((isOpen) => !isOpen);
     setServerErrors({ email: false, password: false });
