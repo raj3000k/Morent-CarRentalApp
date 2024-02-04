@@ -12,11 +12,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '', {
 const webhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
 const supabase = createServerComponentClient<Database>({ cookies });
 
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+export const runtime = 'nodejs'
 
 async function registerCarToSupabase(carId: string, userId: string) {
   const { data: car } = await supabase
@@ -27,6 +23,8 @@ async function registerCarToSupabase(carId: string, userId: string) {
 
   if (car) {
     const { borrower_id } = car;
+    const userExists = borrower_id.includes(userId);
+    if (!userExists) {
     await supabase
       .from('cars')
       .update({
@@ -35,6 +33,7 @@ async function registerCarToSupabase(carId: string, userId: string) {
       .eq('car_id', carId)
       .single();
   }
+ }
 }
 
 export async function POST(req: NextRequest) {
