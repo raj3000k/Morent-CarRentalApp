@@ -35,6 +35,10 @@ const Login = () => {
     email: false,
     password: false,
   });
+  const [pageURL, setPageURL] = useState('');
+  useEffect(() => {
+    setPageURL(window.location.href);
+  }, []);
 
   const toggle = () => {
     setOpen((isOpen) => !isOpen);
@@ -46,8 +50,8 @@ const Login = () => {
       provider,
       options: {
         redirectTo: register
-          ? `${location.origin}/auth/editprofile`
-          : `${location.origin}`,
+          ? `${pageURL}/auth/editprofile`
+          : `${pageURL}`,
       },
     });
   };
